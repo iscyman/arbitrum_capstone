@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+[rpc_endpoints]
+default_network = "http://127.0.0.1:8545"
+localhost = "http://127.0.0.1:8545"
+
+
+arbitrumSepolia = "https://sepolia-rollup.arbitrum.io/rpc"
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+# API KEY from Arbiscan
+API_KEY="UTM1JYQQVU6CWX5VZNPAJCV65IGC9Z23BC"
+
+# PRIVATE KEY from MetaMask
+PRIVATE_KEY="82ef3810511cae3240de2c06909a14f8c3a6fcda308f11cbe32fc67fe5fe6280"
